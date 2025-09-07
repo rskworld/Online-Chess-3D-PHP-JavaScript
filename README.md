@@ -36,11 +36,11 @@ A modern, 3D chess game with AI, animations, sound, and internet multiplayer usi
 - `server/realtime-server.js` – Optional Node WebSocket server (not required)
 
 ## Quick Start (Laragon/Windows)
-1. Place the project under: `C:\laragon\www\games\html5-games\chess\game`
+1. Place the project under: `[Demo](https://rskworld.in/games/html5-games/chess/index.php)`
 2. Ensure the folder exists and is writable: `game/storage/rooms`
    - If not present, it will be auto-created; otherwise create it manually
 3. Visit in your browser:
-   - `http://localhost/games/html5-games/chess/game/`
+   - `[Demo](https://rskworld.in/games/html5-games/chess/index.php)`
 4. Single player: choose difficulty, click squares to move
 5. Multiplayer:
    - In Browser A, enter a Room ID, click “Create”, then “Set Name”
@@ -91,3 +91,4 @@ Website: RSK World • Business Inquiries: help@rskworld.in
 
 ## License
 © RSK World. All rights reserved unless otherwise stated.
+
