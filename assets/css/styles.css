@@ -1,0 +1,63 @@
+/*
+For support, licensing, or custom development inquiries: help@rskworld.in • Phone/WhatsApp: +91 9330539277
+Website: RSK World • Business Inquiries: help@rskworld.in
+🤝 Contributing: Suggestions and improvements are welcome!
+*/
+
+:root {
+    --rsk-accent: #10b981; /* emerald-500 */
+}
+
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+
+#board-container {
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    height: min(75vh, 80vw);
+}
+
+#board-container canvas {
+    display: block;
+    outline: none;
+}
+
+.rsk-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: .375rem;
+    background: rgba(16,185,129,.15);
+    color: #a7f3d0;
+    padding: .25rem .5rem;
+    border-radius: .5rem;
+    font-size: .75rem;
+}
+
+.highlight-legal {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 9999px;
+    background: rgba(16,185,129,.8);
+    pointer-events: none;
+    box-shadow: 0 0 10px rgba(16,185,129,.7);
+}
+
+/* Coordinates overlay */
+#coords-overlay::before,
+#coords-overlay::after,
+#coords-overlay span {
+    position: absolute;
+    color: rgba(203,213,225,.9); /* slate-300 */
+    font-size: 10px;
+}
+#coords-overlay[data-show="false"] { display: none; }
+.coords-file { bottom: 4px; transform: translateX(-50%); }
+.coords-rank { left: 4px; transform: translateY(50%); }
+
+/* Timers font tightening */
+.font-mono { font-variant-numeric: tabular-nums; }
+
+
